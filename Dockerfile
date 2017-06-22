@@ -8,4 +8,4 @@ RUN mkdir -p /srv/app/node_modules && npm install --production
 ADD ./src /srv/app
 EXPOSE 80
 
-CMD node server.js
+#CMD node server.js

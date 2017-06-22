@@ -5,7 +5,7 @@ WORKDIR /srv/app
 # Bundle app source
 ADD ./package.json /srv/app
 RUN mkdir -p /srv/app/node_modules && npm install --production
-ADD ./build /srv/app
+ADD ./src /srv/app
 EXPOSE 80
 
-CMD node server.min.js
+CMD node server.js

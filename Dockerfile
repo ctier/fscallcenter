@@ -1,4 +1,4 @@
-FROM  https://github.com/nodejs/node
+FROM  https://github.com/nodejs/node.git
 #registry.yunkefu.cc/unicall/unicall_nodev4.4.4_base:1.0.1
 MAINTAINER LinYong "liny@unicall.cc"
 WORKDIR /srv/app

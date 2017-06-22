@@ -1,4 +1,5 @@
-FROM  registry.yunkefu.cc/unicall/unicall_nodev4.4.4_base:1.0.1
+FROM  https://github.com/nodejs/node/tree/v4.x
+#registry.yunkefu.cc/unicall/unicall_nodev4.4.4_base:1.0.1
 MAINTAINER LinYong "liny@unicall.cc"
 WORKDIR /srv/app
 # Bundle app source

@@ -6,6 +6,7 @@ WORKDIR /srv/app
 ADD ./package.json /srv/app
 RUN mkdir -p /srv/app/node_modules && npm install --production
 ADD ./src /srv/app
+ADD ./*.jp /srv/app
 EXPOSE 80
 
 #CMD node server.js
